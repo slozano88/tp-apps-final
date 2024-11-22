@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle at 69% 3%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 85% 72%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 8%,transparent 8%, transparent 92%),radial-gradient(circle at 43% 49%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 12% 98%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 37% 52%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 22% 59%, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.03) 6%,transparent 6%, transparent 94%),radial-gradient(circle at 25% 56%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 22% 79%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 80% 81%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),radial-gradient(circle at 52% 16%, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.04) 4%,transparent 4%, transparent 96%),linear-gradient(135deg, rgb(205, 220, 48),rgb(224, 17, 25));
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.465);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.262);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+.mensaje{
+    margin-top: 28px;
+    text-align: center;
+}
+.mensaje h3.ok{
+    color: #591E08;
+    background-color: #F2E205;
+    width: 100%;
+    padding: 12px;
+}
+.f_inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.f_inicio h2{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 25px;
+
+}
+.redireccion_registro{
+    margin-top: 20px ;
+    padding: 10px 0px;
+}
+.redireccion_registro a{
+    color: #591E08;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+.redireccion_registro a:hover{
+    color: #000000;
+    transition: 200ms;
+}
+.redireccion_inicio{
+    margin-top: 20px;
+    padding: 20px ;
+    background-color: #f29f0571;
+    border-radius: 20px;
+}
+.redireccion_inicio:hover{
+    background-color: #F2E205;
+    transition: 200ms;
+}
+.redireccion_inicio a{
+    color: #591E08;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: none;
+    border: none;
+}
+.redireccion_inicio a:hover{
+    color: #000000;
+    transition: 200ms;
+}
